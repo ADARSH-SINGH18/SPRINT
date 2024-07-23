@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 
         log_info("Chat server created on port %d", port);
 
-        // Wait indefinitely (in a real application, you'd have a proper server management loop here)
+       
         while (1)
         {
             sleep(1);
