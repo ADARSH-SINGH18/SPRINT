@@ -35,6 +35,5 @@ void *run_server(void *arg);
 void broadcast_message(struct chat_server_t *server, char *message, int sender_socket);
 chat_server_t *create_chat_server(int id, int port);
 void stop_chat_server(chat_server_t *server);
-void remove_client(chat_server_t *server, client_t *client);
 
 #endif
